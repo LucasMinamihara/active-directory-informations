@@ -1,0 +1,7 @@
+Considerações: 
+1° - Criar pelo powershell é muito mais simples e prático e demanda menos esforço. Então podemos tornar esse processo de criação de usuário mais fácil por meio do powershell. 
+
+
+Comando para criação de usuário: 
+ New-ADUser -name 'Sebastião Salgado' -SamAccountName sebastiaosalgado -UserPrincipalName sebastiaosalgado@empresa.local -Path "OU=Usuários,OU=Vendas,DC=empresa,DC=local" -AccountPassword (ConvertTo-SecureString -AsPlainText 'Senha123' -force) -Enabled $true
+*comando complexo, mas excelente para uso". 
