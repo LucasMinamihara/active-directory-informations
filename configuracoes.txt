@@ -1,0 +1,2 @@
+Quando configurar um servidor sempre colocar no dns o endereço ip da maquina onde o windows server esta instalado o windows server. 
+Informacao legal: 127.0.0.1 eh o apontamento para a propria maquina. Chamamos isso de localhost. 
