@@ -1,2 +1,8 @@
 Quando configurar um servidor sempre colocar no dns o endereço ip da maquina onde o windows server esta instalado o windows server. 
 Informacao legal: 127.0.0.1 eh o apontamento para a propria maquina. Chamamos isso de localhost. 
+Se pingar o nome da m´´aquina, mas n~~ao reconhecer, provavelmente o dns n~~ao est´´a funcionando. 
+Boas pr´´aticas: nomear m´´aquinas conforme departamento. Exemplo: adm1, adm2, adm3 e assim por diante. 
+Para ingressar a m´´aquina no dom´´inio aparentemente o servidor deve estar sempre ligado (n~~ao sei exatamente o porqu^^e, mas s´´o ingressou quando a m´´aquina estava ligada).
+Depois de realizar a formataç~~ao, ter o usu´´ario local na m´´aquina ainda ´´e um problema de segurança. ´´E importante remov^^e-lo, uma vez que ele possui permiss~~ao de realizar procedimentos administrativos. 
+- Para solucionar o problema anterior logue na conta do administador e vá em "gerenciar usuários", clique em cima do usuário local e selecione "remover usuário". Pronto, problema solucionado. 
+
