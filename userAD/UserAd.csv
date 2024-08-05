@@ -1,0 +1,10 @@
+Nome,PrimeiroNome,Sobrenome,Email,Conta,OU
+Débora Assis,Débora,Assis,deboraassis@empresa.local,deboraassis,"OU=Usuários,OU=Vendas,DC=empresa,DC=LOCAL"
+Rodrigo Peres,Rodrigo,Peres,rodrigoperes@empresa.local,rodrigoperes,"OU=Usuários,OU=Adm,DC=empresa,DC=LOCAL"
+Daniel Silva,Daniel,Silva,danielsilva@empresa.local,danielsilva,"OU=Usuários,OU=Vendas,DC=empresa,DC=LOCAL"
+Amanda Bonetti,Amanda,Bonetti,amandabonetti@empresa.local,amandabonetti,"OU=Usuários,OU=Adm,DC=empresa,DC=LOCAL"
+Carlos Gomes,Carlos,Gomes,carlosgomes@empresa.local,carlosgomes,"OU=Usuários,OU=Vendas,DC=empresa,DC=LOCAL"
+Alberto Roberto,Alberto,Roberto,albertoroberto@empresa.local,albertoroberto,"OU=Usuários,OU=Adm,DC=empresa,DC=LOCAL"
+Julpira Neves,Julpira,Neves,julpiraneves@empresa.local,julpiraneves,"OU=Usuários,OU=Vendas,DC=empresa,DC=LOCAL"
+Humberto Pereira,Humberto,Pereira,humbertopereira@empresa.local,humbertopereira,"OU=Usuários,OU=Adm,DC=empresa,DC=LOCAL"
+Mariana Mendes,Mariana,Mendes,marianamendes@empresa.local,marianamendes,"OU=Usuários,OU=Vendas,DC=empresa,DC=LOCAL"

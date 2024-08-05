@@ -5,3 +5,8 @@ Considerações:
 Comando para criação de usuário: 
  New-ADUser -name 'Sebastião Salgado' -SamAccountName sebastiaosalgado -UserPrincipalName sebastiaosalgado@empresa.local -Path "OU=Usuários,OU=Vendas,DC=empresa,DC=local" -AccountPassword (ConvertTo-SecureString -AsPlainText 'Senha123' -force) -Enabled $true
 *comando complexo, mas excelente para uso". 
+
+É possível realizar a criação de vários perfis de uma vez só. Para isso podemos utilizar o script / planilha da aula 24 do active directory. 
+Vou deixar anexado os comandos e a planilha para termos uma base. 
+
+

@@ -1,0 +1,1 @@
+Import-Csv -Path C:\UserAd.csv | ForEach-Object {New-ADUser -name $_.nome -DisplayName $_.nome -SamAccountName $_.conta -UserPrincipalName $_.email -Path $_.ou -AccountPassword (ConvertTo-SecureString -AsPlainText 'Senha123' -force) -Enabled $true}
