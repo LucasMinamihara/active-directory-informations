@@ -6,3 +6,18 @@ Para ingressar a m´´aquina no dom´´inio aparentemente o servidor deve estar 
 Depois de realizar a formataç~~ao, ter o usu´´ario local na m´´aquina ainda ´´e um problema de segurança. ´´E importante remov^^e-lo, uma vez que ele possui permiss~~ao de realizar procedimentos administrativos. 
 - Para solucionar o problema anterior logue na conta do administador e vá em "gerenciar usuários", clique em cima do usuário local e selecione "remover usuário". Pronto, problema solucionado. 
 
+Para incluir expiração de conta de usuário: 
+usuário > propriedades > contas > data para expirar (adicionar data). - Adicionado dia para expirar conta.
+
+É possível realizar configuração de complexidade de senha. Mas é um passo a passo extenso, para isso ver a aula novamente de "complexidade de senha do active directory". 
+
+Uma forma mais simples de realizar essa configuração é por criar um perfil e logo na parte de baixo na criação, atribuir essa pessoa a um objeto. Prontinho, problema solucionado. 
+
+Senha usuário padrão: senha1234
+Senha usuário master: padrão Lucas. 
+
+Para facilitar os processo e não tornar tudo manual é possível simplesmente criar um grupo e ir atribuindo pessoas a esse grupo. Para mais informações acessar o vídeo da udemy que fala sobre isso ("Lixeira do active directory").
+
+Para segurança de dados é possível habilitar lixeira para que evitemos ter problemas de perca de dados por exemplo. Para realizar essa configuração devemos simplesmente ir até o grupo / perfil criado e logo em seguida selecionar em "habilitar lixeira". Esse procedimento fará com que todos os usuários que forem excluídos antes caiam em uma lixeira para evitar grandes problemas. 
+Após habilitar a lixeira, todos os usuários deletados irão para a seguinte pasta "deleted objects" todos os usuários excluídos aparecerão alí. 
+
